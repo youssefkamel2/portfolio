@@ -1,0 +1,72 @@
+.aside .logo a::before {
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+
+.aside .logo a::after {
+    border-bottom: 4px solid #ec1839;
+    border-right: 4px solid #ec1839;
+}
+
+.contact .contact-info-item .icon i,
+.blog .blog-item .blog-item-inner .blog-tags a,
+.portfolio .portfolio-item .portfolio-info .icon i,
+.portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner .icon i,
+.service .service-item .service-item-inner .icon i,
+.about .about-content .about-text h3 span,
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a:hover,
+.aside .nav li a.active {
+    color: #ec1839;
+}
+
+.aside .nav-toggler i {
+    color: #ec1839;
+}
+
+.home .intro .social-links a,
+.bottom-nav .social-links a {
+    background-color: #ec1839;
+}
+
+.social-links a:hover {
+    color: #ec1839;
+    background: #fefefe;
+    border: 1px solid #ec1839;
+    transform: scale(1.1)
+}
+
+.fa-chevron-up,
+.service .service-item .service-item-inner:hover .icon,
+.about .about-content .skills .skills-item .progress .progress-in,
+.btn,
+.btn2,
+.right-aside a,
+.section-title h2::before,
+.section-title h2::after {
+    background-color: #ec1839;
+}
+
+.btn:hover,
+.btn2:hover,
+.portfolio .portfolio-filter button.active {
+    border-color: #ec1839;
+}
+
+body.dark .freelancer.section {
+    background-color: #ec1839;
+}
+
+.freelancer.section {
+    background-color: #ec1839;
+}
+
+.review .slide .user i {
+    color: #ec1839;
+}
+
+body.dark .review .slide p.location {
+    color: #ec1839;
+}

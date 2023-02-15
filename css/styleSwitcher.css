@@ -1,0 +1,67 @@
+.style-switcher {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #d4d4e3;
+    border-right: none;
+    transform: translate(100%);
+    transition: all 0.4s ease-in-out ;
+}
+
+.style-switcher.styleopen {
+    transform: translate(0);
+    transition: all 0.4s ease-in-out ;
+}
+
+.style-switcher h5 {
+    font-size: 16px;
+    color: #302e4d;
+    margin-bottom: 8px;
+    margin-top: 0;
+    border-bottom: 1px solid #e8dfec;
+}
+
+.style-switcher ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.style-switcher ul li {
+    display: inline-block;
+}
+
+.style-switcher ul li a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.style-switcher .toggle-style-switcher {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    left: -45px;
+    top: -1px;
+    border: 1px solid #d4d4e3;
+    border-right: none;
+    text-align: center;
+    border-radius: 0 0 0 5px;
+}
+
+.style-switcher .toggle-style-switcher i {
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 45px;
+}
